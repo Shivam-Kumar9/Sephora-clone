@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #sign-in {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      #sign-in > div:first-child > p {
+        margin-top: 10px;
+      }
+      #sign-in > div:nth-child(2),
+      #sign-in > div:nth-child(3) {
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .in {
+        padding: 12px;
+        border-radius: 4px;
+        border: 1px solid gray;
+        width: 100%;
+      }
+
+      #sign-in > div:nth-child(4) {
+        display: flex;
+        justify-content: space-between;
+      }
+      #sign-in > div:nth-child(4) > p {
+        color: rgb(3, 127, 236);
+      }
+      #sign-in > div:nth-child(4) > p:hover {
+        text-decoration: underline;
+      }
+      #sign-in > div:nth-child(4) > div {
+        display: flex;
+        gap: 10px;
+      }
+      #sign-in > div:nth-child(5) {
+        font-size: small;
+        color: gray;
+      }
+      #sign-in > div:nth-child(6) button {
+        padding: 12px 70px;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 50px;
+        border: none;
+        background-color: black;
+        color: white;
+      }
+      #create {
+        margin: 20px;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        width: 30%;
+      }
+      #create button,
+      a {
+        padding: 12px;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 50px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="sign-in">
+      <div>
+        <h3>Sign In</h3>
+        <p>
+          Sign in or create an account to enjoy <b>FREE standard shipping</b> on
+          all orders.
+        </p>
+      </div>
+      <div>
+        <input class="in" type="text" placeholder="Email Address" />
+        <p>Please enter your email address.</p>
+      </div>
+
+      <div>
+        <input class="in" type="text" placeholder="Password" />
+        <p>Please enter your Password.</p>
+      </div>
+
+      <div>
+        <div>
+          <input type="checkbox" />
+          <p>Keep me signed in</p>
+        </div>
+        <p>Forgot password?</p>
+      </div>
+
+      <div>
+        <p>
+          By clicking “Sign In”, you (1) agree to the current version of our
+          <b style="color: rgb(0, 174, 232)">TERMS OF USE</b>, and (2) have read
+          Sephora’s <span style="color: rgb(0, 138, 185)">Privacy Policy</span>
+        </p>
+      </div>
+
+      <div>
+        <button>Sign In</button>
+      </div>
+      <hr />
+    </section>
+    <div id="create">
+      <h3>New to sephora?</h3>
+      <button>
+        <a style="text-decoration: none" href="./signUp.html">Create Account</a>
+      </button>
+    </div>
+  </body>
+</html>

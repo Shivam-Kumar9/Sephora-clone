@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        background-image: url("https://i.pinimg.com/564x/1e/40/50/1e4050af8aeda798e56f22a7f8b4d7d6.jpg");
+      }
+      #signupP {
+        padding: 15px;
+        width: 50%;
+        margin: auto;
+        background-color: white;
+        border-radius: 10px;
+      }
+      hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      #signupP > div:first-child {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      #signupP > div:last-child {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      input {
+        padding: 12px;
+        border-radius: 6px;
+        border: 1px solid gray;
+      }
+      #name {
+        display: flex;
+        justify-content: space-between;
+      }
+      #name > input {
+        width: 48.5%;
+      }
+      #three_fill {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      .cbox_gift {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+      }
+
+      .cbox_gift > input {
+        width: 25px;
+        height: 25px;
+      }
+      #dob {
+        display: flex;
+        justify-content: space-between;
+      }
+      #dob > select {
+        width: 48%;
+        padding: 12px;
+        border-radius: 6px;
+        border: 1px solid gray;
+      }
+      .pterms {
+        font-size: 12px;
+      }
+      .terms {
+        color: rgb(19, 107, 234);
+        font-weight: 700;
+      }
+      .terms:hover {
+        text-decoration: underline;
+      }
+      button {
+        width: 100%;
+        padding: 14px;
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: 700;
+        color: white;
+        background-color: black;
+        border: none;
+      }
+      button:hover {
+        background-color: rgb(72, 72, 72);
+      }
+      @media screen and (max-width: 800px) {
+        #signupP {
+          padding: 15px;
+          width: 100%;
+          margin: auto;
+          background-color: white;
+          border-radius: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="signupP">
+      <div>
+        <h2>create An Account</h2>
+      </div>
+      <hr />
+      <div>
+        <div>
+          <h1><i style="font-family: initial">Beauty</i> INSIDER</h1>
+          <p style="margin-top: 20px">
+            Join the Beauty Insider loyalty program. Earn points, get
+            <b>FREE standard shipping</b>, redeem rewards, and more.
+          </p>
+        </div>
+
+        <div id="name">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+
+        <div id="three_fill">
+          <input type="text" placeholder="Email Address" />
+          <input type="text" placeholder="Password (6 to 12 characters)" />
+          <input type="number" placeholder="Phone Number" />
+        </div>
+
+        <div class="cbox_gift">
+          <input type="checkbox" />
+          <label>Sign me up for Sephora marketing Text alerts.</label>
+        </div>
+
+        <div class="cbox_gift">
+          <div>
+            <img
+              src="https://www.sephora.com/img/ufe/icons/birthday.svg "
+              style="width: 27px"
+              alt="gift"
+            />
+          </div>
+          <p><b>Enter your birthday to receive a free gift every year.</b></p>
+        </div>
+
+        <div id="dob">
+          <select id="months" placeholder="Months">
+            <option value="1">Months</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+
+          <select id="day" name="day">
+            <option value="0">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+        </div>
+
+        <div>
+          <input
+            style="width: 100%"
+            type="number"
+            placeholder="ZIP/Postal Code"
+          />
+        </div>
+        <hr />
+        <div class="pterms">
+          <p>
+            <b>Sephora Text Alerts Disclosure:</b> By entering your phone
+            number, checking the
+            <b>Sign me up for Sephora marketing text alerts checkbox,</b>
+            clicking the “Join Now” button and confirming sign-up, you consent
+            and agree to receive recurring autodialed marketing texts, including
+            abandoned cart reminders, and confirm that you have read and agree
+            to the <span class="terms">TEXT TERMS.</span> Message frequency
+            varies. Consent is not a condition of purchase. Message & data rates
+            may apply. See our <span class="terms">PRIVACY POLICY</span> and
+            <span class="terms">NOTICE OF FINANCIAL INCENTIVE</span>. Text STOP
+            to cancel at any time. HELP for help.<br /><br />
+            By clicking “Join Now” you acknowledge that you are a U.S. or Canada
+            resident and (1) have read Sephora’s Privacy Policy and Notice of
+            Financial Incentive, (2), agree to
+            <span class="terms">TERMS OF USE</span>,
+            <span class="terms">BEAUTY INSIDER TERMS</span>, and to
+            automatically receive Beauty Insider offers and notifications via
+            email.
+          </p>
+        </div>
+
+        <div>
+          <button>Join Now</button>
+        </div>
+        <hr />
+        <div class="pterms">
+          <p>
+            Sephora uses Google ReCaptcha and by registering, users are subject
+            to Google’s privacy policy & terms.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

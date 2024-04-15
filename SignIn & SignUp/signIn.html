@@ -10,12 +10,22 @@
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
       }
+      body{
+       
+        background-image: url("https://i.pinimg.com/564x/1e/40/50/1e4050af8aeda798e56f22a7f8b4d7d6.jpg");
+      
+      }
       #sign-in {
-        margin: 20px;
-        display: flex;
+         
+         padding: 20px;
+         display: flex;
         flex-direction: column;
         gap: 15px;
-      }
+        width: 55%;
+        margin:20px auto;
+        border-radius: 5px;
+        background-color: white;
+       }
 
       #sign-in > div:first-child > p {
         margin-top: 10px;
@@ -62,26 +72,46 @@
         color: white;
       }
       #create {
-        margin: 20px;
-        display: flex;
+         display: flex;
         gap: 15px;
         flex-direction: column;
-        width: 30%;
-      }
-      #create button,
-      a {
+        width: 45%;
+       }
+      #create>button
+       {
+        width: 70%;
         padding: 12px;
         font-size: 15px;
         font-weight: 700;
+        border: 2px solid;
         border-radius: 50px;
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
         white-space: nowrap;
       }
+      #create a{
+        color: black;
+      }
+      @media screen and (max-width:800px) {
+        #sign-in {
+          width: 100%;
+        }
+        #create {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        width: 60%;
+       }
+        #create>button{
+        width: 150px;
+        padding: 10px 20px;
+      }
+      }
     </style>
   </head>
   <body>
-    <section id="sign-in">
+    <section id="sign-in-p">
+    <div id="sign-in">
       <div>
         <h3>Sign In</h3>
         <p>
@@ -119,12 +149,15 @@
         <button>Sign In</button>
       </div>
       <hr />
-    </section>
-    <div id="create">
-      <h3>New to sephora?</h3>
-      <button>
-        <a style="text-decoration: none" href="./signUp.html">Create Account</a>
-      </button>
+
+      <div id="create">
+        <h3>New to sephora?</h3>
+        <button>
+          <a style="text-decoration: none" href="./signUp.html">Create Account</a>
+        </button>
+      </div>
     </div>
+  </section>
+ 
   </body>
 </html>

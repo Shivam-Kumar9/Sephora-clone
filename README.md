@@ -1,4 +1,4 @@
-### Sephora Clone Project
+# Sephora Clone Project
 This project is a clone of the Sephora website, created for educational purposes to demonstrate skills in HTML, CSS, and responsive web design.
  
 ## Table of Contents
@@ -9,25 +9,26 @@ This project is a clone of the Sephora website, created for educational purposes
 * Setup
 * License
 
-# Overview
+### Overview
 The Sephora Clone Project aims to replicate the user interface and basic functionality of the Sephora website. It includes pages for browsing products, viewing product details and more.
 
-# Features
+### Features
 Homepage: Browse featured products and promotions.
 Product Listings: View a variety of product categories and browse products within each category.
 Product Details: Click on a product to view detailed information, including images, descriptions, and customer reviews.
  
-# Responsive Design: The website is optimized for various screen sizes, including desktop, tablet, and mobile devices.
-# Demo
+### Responsive Design: The website is optimized for various screen sizes, including desktop, tablet, and mobile devices.
+
+### Demo
 You can view a live demo of the Sephora Clone Project here ( <a href="https://euphonious-tiramisu-091344.netlify.app">Sephora Clone</a>).
 
-# Technologies Used
+### Technologies Used
 
 * HTML5
 * CSS3
  
 
-# To run this project locally, follow these steps:
+### To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.

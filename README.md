@@ -20,7 +20,12 @@ Product Details: Click on a product to view detailed information, including imag
 ### Responsive Design: The website is optimized for various screen sizes, including desktop, tablet, and mobile devices.
 
 ### Demo
-You can view a live demo of the Sephora Clone Project here ( <a href="https://euphonious-tiramisu-091344.netlify.app">Sephora Clone</a>).
+You can view a live demo of the Sephora Clone Project here ( <a href="https://euphonious-tiramisu-091344.netlify.app">Deploy link</a>).
+* Desktop view of website 
+ <img src="https://drive.google.com/file/d/1qYdMvvank_MBqhsa9OLvfcHm3wrS0oDi/view?usp=drive_link" alt="large screen" width="260" height="180" border="5">
+* Mobile view of website 
+ <img src="https://drive.google.com/file/d/1LYSKM2x-Y56KnRWa9cP36q9l5QkRsNWh/view?usp=drive_link" alt="Small screen"  width="200" height="100" border="3">
+
 
 ### Technologies Used
 

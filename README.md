@@ -21,12 +21,14 @@ Product Details: Click on a product to view detailed information, including imag
 
 ### Demo
 You can view a live demo of the Sephora Clone Project here ( <a href="https://euphonious-tiramisu-091344.netlify.app">Deploy link</a>).
-* Desktop view of website 
- <img src="https://drive.google.com/file/d/1qYdMvvank_MBqhsa9OLvfcHm3wrS0oDi/view?usp=drive_link" alt="large screen" width="260" height="180" border="5">
-* Mobile view of website 
- <img src="https://drive.google.com/file/d/1LYSKM2x-Y56KnRWa9cP36q9l5QkRsNWh/view?usp=drive_link" alt="Small screen"  width="200" height="100" border="3">
+* Desktop view of website
+  ![Screenshot 2024-04-15 221416](https://github.com/Shivam-Kumar9/Sephora-clone/assets/148850424/b739994b-48f7-4c49-a9c1-2f7d748f6c37)
 
+* Mobile view of website
+  
+  ![WhatsApp Image 2024-04-15 at 11 23 25 PM](https://github.com/Shivam-Kumar9/Sephora-clone/assets/148850424/c62a1e29-6fd7-45cd-b547-371369f5b2af)
 
+ 
 ### Technologies Used
 
 * HTML5
@@ -37,7 +39,7 @@ You can view a live demo of the Sephora Clone Project here ( <a href="https://eu
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Move  files from folder gather it on same place.
+3. Move  files from folder and gather it on same place.
 4. Open the index.html file in your web browser.
 5. Alternatively, you can use a local development server such as Live Server (for VS Code) to run the project.
 
